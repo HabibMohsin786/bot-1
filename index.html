@@ -1,0 +1,404 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+    <title>lighten</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <!-- nav top box start -->
+    <nav class="navbar navbar-expand-lg navbar-warning bg-warning " style="height: 50px;">
+        <div class="container-fluid">
+            <!--<a class="navbar-brand" href="#">Navbar</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button> -->
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ps-3 ms-5 me-auto mb-2 mb-lg-0">
+                    <li class="nav-item ps-5">
+                        <a class="nav-link active text-dark" aria-current="page" href="#"><i
+                                class="fa-brands fa-facebook-f"></i></a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link text-dark" href="#"><i class="fa-brands fa-twitter"></i></a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link text-dark " href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fa-brands fa-square-instagram"></i></a>
+                    </li>
+                    <li class="nav-item ps-3">
+                        <a class="nav-link text-dark" href="#" tabindex="-1" aria-disabled="true"><i
+                                class="fa-brands fa-linkedin-in"></i></a>
+                    </li>
+                </ul>
+                <p class="text-dark me-5 my-auto">
+                    <a class="nav-link text-dark me-5" href="#" tabindex="-1" aria-disabled="true">long established fact
+                        that a reader will be</a>
+
+                </p>
+
+            </div>
+        </div>
+    </nav>
+    <!--nav top box end -->
+
+    <!-- nav mid box star -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-white">
+        <div class="container-fluid ps-3 my-3">
+            <a class="navbar-brand ms-5 ps-5" href="#"><img src="image/logo.jpg" alt=""></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0 my-auto" style="font-weight: bold;">
+                    <li class="nav-item me-5 fs-5">
+                        <a class="nav-link active text-warning" aria-current="page" href="#">Home</a>
+                    </li>
+                    <li class="nav-item me-5 fs-6 my-auto" style=" :hover; color:rgb(255 195 7) ;">
+                        <a class="nav-link text-dark pl" href="#">ABOUT</a>
+                    </li>
+                    <li class="nav-item me-5 fs-6 my-auto">
+                        <a class="nav-link text-dark pl" href="#">PRODUCT</a>
+                    </li>
+                    <li class="nav-item me-5 fs-6 my-auto">
+                        <a class="nav-link text-dark pl" href="#">BLOG</a>
+                    </li>
+                    <li class="nav-item me-5 fs-6 my-auto">
+                        <a class="nav-link text-dark pl" href="#">CONTACT</a>
+                    </li>
+                    <li class="nav-item me-5 fs-6 my-auto">
+                        <a class="nav-link text-dark pl" href="#">SIGUP</a>
+                    </li>
+                    <li class="nav-item ms-5 fs-6 my-auto">
+                        <button class="btn btn-outline-success bg-warning border-0 text-dark FS-3 "
+                            style="width: 110px;" type="submit">Login</button>
+                    </li>
+                </ul>
+                <!-- <form class="d-flex pe-5">
+                    <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
+                </form> -->
+            </div>
+        </div>
+    </nav>
+    <!-- nav mid box end -->
+
+    <!-- slider start -->
+    <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+        <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
+                aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
+                aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
+                aria-label="Slide 3"></button>
+        </div>
+        <div class="carousel-inner">
+            <div class="carousel-item active">
+                <img src="image/slider_1.jpg" class="d-block w-100" alt="image/slider_1.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">First slide label </h5>
+                    <p>Some representative placeholder content for the first slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/slider_1.jpg" class="d-block w-100" alt="image/slider_1.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Second slide label</h5>
+                    <p>Some representative placeholder content for the second slide.</p>
+                </div>
+            </div>
+            <div class="carousel-item">
+                <img src="image/slider_1.jpg" class="d-block w-100" alt="image/slider_1.jpg">
+                <div class="carousel-caption d-none d-md-block">
+                    <h5 class="text-warning">Third slide label</h5>
+                    <p>Some representative placeholder content for the third slide.</p>
+                </div>
+            </div>
+        </div>
+        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+        </button>
+        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+        </button>
+    </div>
+    <!-- slider end -->
+    <!-- Top Bennar Start -->
+    <div class="container mt-5 bg-white">
+        <div class="d-flex justify-content-center">
+            <p class="fs-1 p-0 m-0 text-dark"> <span class="text-warning fw-bold">WHY</span> CHOOSE US</p>
+        </div>
+        <div class="mx-auto bg-dark m-0 p-0 bd"></div>
+        <div class="fs-2 mx-auto my-3 d-flex justify-content-center">
+            <p class="text-dark">Fastest repair service with best price!</p>
+        </div>
+    </div>
+    <!-- Top Bennar End-->
+    <!-- Top Bennar card  Start -->
+    <div class="bg-warning">
+        <div class="container bg-white shadow bg-body-warning">
+            <div class="row">
+                <div class="col-md-3">
+                    <div class="card border border-0 mt-5" style="width: 15rem;">
+                        <div style="width: 10rem;" class="mx-auto"><img src="image/1.png" class="card-img-top"
+                                alt="image/1.png"></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Data recovery</h4>
+                            <p class="card-text">Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border border-0 mt-5" style="width: 15rem;">
+                        <div style="width: 10rem;" class="mx-auto"><img src="image/2.png" class="card-img-top"
+                                alt="image/2.png"></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Computer repair</h4>
+                            <p class="card-text">Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border border-0 mt-5" style="width: 15rem;">
+                        <div style="width: 10rem;" class="mx-auto"><img src="image/3.png" class="card-img-top"
+                                alt="image/3.png"></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Mobile service</h4>
+                            <p class="card-text">Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-3">
+                    <div class="card border border-0 mt-5" style="width: 15rem;">
+                        <div style="width: 10rem;" class="mx-auto"><img src="image/4.png" class="card-img-top"
+                                alt="image/4.png"></div>
+                        <div class="card-body text-center">
+                            <h4 class="card-title">Network solutions</h4>
+                            <p class="card-text">Perspiciatis eos quos totam cum minima autPerspiciatis eos quos</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="text-center mt-5">
+                <button type="button" class="btn btn-outline-warning text-dark p-2 px-5 fs-5">Read More</button>
+            </div>
+        </div>
+    </div>
+    <!-- Top Bennar card  End -->
+    <!-- 2nd Bennar Start -->
+    <div class="container mt-5 bg-white">
+        <div class="d-flex justify-content-center">
+            <p class="fs-1 p-0 m-0 text-dark"> <span class="text-warning fw-bold">SERVICE</span>PROCESS</p>
+        </div>
+        <div class="mx-auto bg-dark m-0 p-0 bd"></div>
+        <div class="fs-2 mx-auto my-3 d-flex justify-content-center">
+            <p class="text-dark">Easy and effective way to get your device repair</p>
+        </div>
+    </div>
+    <!-- 2nd Bennar End-->
+    <!-- 2nd Bennar Cards Start-->
+    <div class="container">
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border border-0 mt-5 shadow p-3 mb-4 bg-body-tertiary"
+                    style="width: 20rem; height: 15rem;">
+                    <div style="width: 6rem;" class="mx-auto"><img src="image/asset 7.png" class="card-img-top"
+                            alt="image/asset 7.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Fast service</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border border-0 mt-5 shadow p-3 mb-4 bg-body-tertiary"
+                    style="width: 20rem; height: 15rem;">
+                    <div style="width: 5rem;" class="mx-auto"><img src="image/asset 8.png" class="card-img-top"
+                            alt="image/asset 8.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Secure payments</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border border-0 mt-5 shadow p-3 mb-4 bg-body-tertiary"
+                    style="width: 20rem; height: 15rem;">
+                    <div style="width: 5rem;" class="mx-auto"><img src="image/asset 9.png" class="card-img-top"
+                            alt="image/asset 9.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Expert team</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-md-4">
+                <div class="card border border-0 shadow p-3 mb-5 bg-body-tertiary" style="width: 20rem; height: 15rem;">
+                    <div style="width: 5rem;" class="mx-auto"><img src="image/asset 10.png" class="card-img-top"
+                            alt="image/asset 10.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Affordable services</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border border-0 shadow p-3 mb-5 bg-body-tertiary" style="width: 20rem; height: 15rem;">
+                    <div style="width: 5rem;" class="mx-auto"><img src="image/asset 11.png" class="card-img-top"
+                            alt="image/asset 11.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">90 Days warranty</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="card border border-0 shadow p-3 mb-5 bg-body-tertiary" style="width: 20rem; height: 15rem;">
+                    <div style="width: 4rem;" class="mx-auto"><img src="image/asset 12.png" class="card-img-top"
+                            alt="image/asset 12.png"></div>
+                    <div class="card-body text-center">
+                        <h4 class="card-title">Award winning</h4>
+                        <p class="card-text">Exerci tation ullamcorper suscipit lobortis nisl ut aliquip ex ea</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 2nd Bennar Cards End-->
+    <!-- 3rd Bennar Start-->
+    <div class="container mt-5 bg-white">
+        <div class="">
+            <p class="fs-1 p-0 m-0 text-dark"> <span class="text-warning fw-bold">OUR</span> PRODUCTS</p>
+        </div>
+        <div class="bg-dark m-0 p-0 bc"></div>
+        <div class="fs-4 mx-auto my-3">
+            <p class="text-dark">We package the products with best services to make you a happy customer.</p>
+        </div>
+    </div>
+    <!-- 3rd Bennar End-->
+    <!-- 3rd Bennar Cards Start-->
+    <div class="bak-bnr" style="background-image: url('image/asset23.jpeg');">
+        <div style="background-color: rgba(255, 255, 255, 0.5);">
+            <div class="container">
+                <div class="row">
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div><div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="row">
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div><div class="col-md-3 mt-5">
+                        <div class="card p-3 rounded-0 crd-bck" style="width: 18rem;">
+                            <div style="width: 16rem;"><img src="image/asset 13.png" class="card-img-top"
+                                    alt="image/asset 13.png"></div>
+                            <div class="card-body text-center mt-2 p-0">
+                                <p class="card-text fs-6 fw-bold">Norton Internet Security</p>
+                                <h4 class="card-title">$25.00</h4>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!-- 3rd Bennar Cards End-->
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js" integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js" integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>
